@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imagens/1896925.jpg);
+    background-size:cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    }
+header{
+    color: white;
+}
+main{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    background-image:url(./imagens/1896925.jpg);
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', cursive;
+    border: 4px dashed rgb(162, 0, 255);
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.subt{
+    padding-top: 0;
+    border-top:0;
+    border-top-left-radius:0; 
+    border-top-right-radius:0; 
+}
+.t{
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    text-decoration: underline;
+}
+.personagens{
+    margin-top:40px;
+    margin-left: 40px;
+    padding: 10px;
+    background-color: rgba(51, 0, 85, 0.8);
+    border: 4px dashed rgb(171, 0, 250);
+    width: 40%;
+    height: 800px;
+    display:inline-block;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.personagens::-webkit-scrollbar{
+    display:none;
+}
+#At{
+    text-decoration: underline;
+}
+#p{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+.local{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.resp{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+/* Imagem Tokens */
+#tk1{
+    float: left;
+    width: 150px;
+}
+#tk2{
+    float: left;
+    width: 150px;
+}
+#tk3{
+    float: left;
+    width: 150px;
+}
+#tk4{
+    float: left;
+    width: 150px;
+}
+#tk5{
+    float: left;
+    width: 150px;
+}
+/* Texto Tokens */
+#khirol{
+    text-align: right;
+    color: white;
+    padding: 10px;
+    padding-bottom: 120px;
+}
+#tyler{
+    text-align: right;
+    color: white;
+    padding: 10px;
+    padding-bottom: 120px;
+}
+#lyt{
+    text-align: right;
+    color: white;
+    padding: 10px;
+    padding-bottom: 120px;
+}
+#theliel{
+    text-align: right;
+    color: white;
+    padding: 10px;
+    padding-bottom: 120px;
+}
+#hex{
+    text-align: right;
+    color: white;
+    padding: 10px;
+    padding-bottom: 120px;
+}
+/* Animação Tokens */
+#tkd1:hover{
+    background-color: rgba(37, 0, 0, 0.4);
+    border: 3px dashed red;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+#tkd2:hover{
+    background-color: rgba(110, 66, 0, 0.4);
+    border: 3px dashed rgb(255, 94, 0);
+    border-radius: 10px;
+    transition: 1s;
+}
+#tkd3:hover{
+    background-color: rgba(0, 34, 34, 0.4);
+    border: 3px dashed rgb(0, 247, 255);
+    border-radius: 10px;
+    transition: 1s;
+}
+#tkd4:hover{
+    background-color: rgba(48, 0, 36, 0.4);
+    border: 3px dashed rgb(255, 0, 140);
+    border-radius: 10px;
+    transition: 1s;
+}
+#tkd5:hover{
+    background-color: rgba(63, 4, 0, 0.4);
+    border: 3px dashed rgb(255, 0, 0);
+    border-radius: 10px;
+    transition: 1s ;
+}
+/* INFORMAÇÕES */
+.informações{
+    background-color:rgba(17, 0, 77, 0.8);
+    border: 4px dashed rgb(55, 0, 255);
+    border-radius: 10px;
+    float: right;  
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-top:40px;
+    margin-right: 20px;
+    width: 50%;
+    height: 800px;
+    box-sizing: border-box;
+}
+.informações:hover{
+    border: 3px dashed rgb(0, 238, 255);
+    transition: 2s;
+}
+.personagens:hover{
+    border: 3px dashed rgb(255, 0, 212);
+    transition: 2s;
+}
+/* tabela */
+tr{
+    line-height: 50px;
+}
+th{
+    text-decoration: underline;
+}
+.ql{
+    border: 2px solid white;
+    text-decoration: none;
+}
+ul{
+    list-style-position: inside;
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: black;
+    }
+    .informações{
+        width: 40%;
+        float: right;
+        margin-top:10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 600px;
+        overflow: auto;
+    }
+    .informações::-webkit-scrollbar{
+        display: none;
+    }
+    .personagens{
+        font-size: 10px;
+        margin-top:10px;
+        margin-left:10px;
+        margin-right: 10px;
+        height: 600px;
+    }
+    #At{
+        font-size: small
+    }
+    #it{
+        font-size: small;
+    }
+    #tk1, #tk2 , #tk3, #tk4, #tk5{
+        width: 125px;
+    }
+}
+@media screen and (max-width:590px){
+    table{
+        font-size: 10px;
+    }
+    tr{
+        line-height: 20px;
+    }
+    #tk1, #tk2 , #tk3, #tk4, #tk5{
+        width: 60%;
+    }
+    #At, #it, #disc{
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .personagens{
+        width: 40%;
+
+    }
+    #theliel, #lyt, #tyler, #hex, #khirol{
+        padding-bottom: 40px;
+    }
+    #local1{
+        width: 60px;
+    }
+}
+@media screen and (max-width:450px){
+    #theliel, #lyt, #tyler, #hex, #khirol{
+        padding-bottom: 20px;
+    }
+    #p, .local{
+        font-size: 8px;
+    }
+    #At , #it{
+      padding: 0; 
+      font-size: 7px;
+    }
+    .title{
+        font-size: 20px;
+    } 
+}
